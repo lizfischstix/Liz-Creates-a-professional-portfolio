@@ -1,18 +1,43 @@
-headder{
+body {
+    background-color: sandybrown;
+    margin: 0%;
+}
+header{
     background-color: salmon;
     display: flex;
     flex-wrap: inherit;
     justify-content: space-between;
+    padding: 40px 20px 15px;
+    border-radius: 5px;
 }
 header>section {
     box-sizing: content-box;
+    color: #474747;
     background: sandybrown;
     padding: 10px 20px;
     font-size: xx-large;
-    font-family: cursive
+    font-family: cursive;
+    border-radius: 20px;
+    border: #4d8f8f;
+    border-style: dotted;
 }
-nav {
+nav>a {
     align-content: space-between;
     padding: 40px 15px 5px 15px;
     font-family: sans-serif;
+}
+#quote {
+    display:flex;
+    justify-content: right;
+    margin: 150px 15px 5px 15px;
+}
+#quote-text{
+    background-color:#474747;
+    color:#4d8f8f;
+    font-size: large;
+    font-family: cursive;
+    display: flex;
+    padding-right: 15px;
+    width: fit-content;
+
 }
