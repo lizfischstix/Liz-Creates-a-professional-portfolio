@@ -26,10 +26,8 @@ nav>a {
     padding: 40px 15px 5px 15px;
     font-family: sans-serif;
 }
-#quote {
-    display:flex;
-    justify-content: right;
-    margin: 150px 15px 5px 15px;
+#banner{
+    background-image: url(Assets/Images/poshmark-banner.png);
 }
 #quote-text{
     background-color:#474747;
@@ -39,5 +37,6 @@ nav>a {
     display: flex;
     padding-right: 15px;
     width: fit-content;
+    justify-content: right;
 
 }
