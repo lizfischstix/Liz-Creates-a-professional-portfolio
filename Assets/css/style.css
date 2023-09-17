@@ -3,7 +3,7 @@ body {
     margin: 0%;
 }
 header{
-    background-color: salmon;
+    background-color: #b85f6c;
     display: flex;
     flex-wrap: inherit;
     justify-content: space-between;
@@ -13,7 +13,7 @@ header{
 header>section {
     box-sizing: content-box;
     color: #474747;
-    background: sandybrown;
+    background: #cd8b56;
     padding: 10px 20px;
     font-size: xx-large;
     font-family: cursive;
