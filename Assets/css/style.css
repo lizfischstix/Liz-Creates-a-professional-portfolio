@@ -27,16 +27,46 @@ nav>a {
     font-family: sans-serif;
 }
 #banner{
+    display: flex;
     background-image: url(Assets/Images/poshmark-banner.png);
+    justify-content: flex-end;
+    align-items: baseline;
+    padding-top: 300px;
+    padding-bottom: 20px;
+    padding-right: 20px;
 }
+
 #quote-text{
-    background-color:#474747;
-    color:#4d8f8f;
+    background-color: #474747;
+    color: #4d8f8f;
     font-size: large;
     font-family: cursive;
     display: flex;
     padding-right: 15px;
     width: fit-content;
-    justify-content: right;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+#about-me{
+    padding: 15px;
+    margin: 15px;
+    align-content: space-between
+}
+#aside{
+    display: flex;
+    text-align: center;
+    width: 10%;
+    border: #474747;
+    background-color: beige;
+    font-size: 50px;
+}
 
+#content{
+    display: flex;
+    width: 40%;
+    border: #474747;
+    background-color: beige;
+    font-size: 25px;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
 }
