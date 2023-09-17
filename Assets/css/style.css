@@ -26,7 +26,7 @@ nav>a {
     padding: 40px 15px 5px 15px;
     font-family: sans-serif;
 }
-#banner{
+.banner {
     display: flex;
     height: 600px;
     width: 100%;
@@ -37,11 +37,10 @@ nav>a {
     justify-content: right;
     flex-wrap: wrap;
     align-content: flex-end;
-
 }
 
 
-#quote-text{
+.quote-text{
     background-color: #474747;
     color: #4d8f8f;
     font-size: large;
@@ -56,26 +55,18 @@ nav>a {
     align-content: center;
     padding: 12px;
 }
-#about-me{
-    padding: 15px;
-    margin: 15px;
-    align-content: space-between
+aside {
+font-size: 50px;
+    font-family: sans-serif;
 }
-#aside{
+section {
     display: flex;
-    text-align: center;
-    width: 10%;
-    border: #474747;
-    background-color: beige;
-    font-size: 50px;
+    justify-content: space-between;
+    margin: 25px 50px;
 }
-
-#content{
-    display: flex;
-    width: 40%;
-    border: #474747;
-    background-color: beige;
-    font-size: 25px;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
+img{
+    width: 15%;
+}
+.bio{
+    width: 600px;
 }
