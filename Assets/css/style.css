@@ -1,6 +1,8 @@
 body {
-    background-color: sandybrown;
+    background-color: #ae9780;
     margin: 0%;
+    display: flex;
+    flex-direction: column;
 }
 
 header{
@@ -59,11 +61,18 @@ aside {
     font-size: 50px;
     font-family: sans-serif;
     margin: 40px;
-    margin-right:   ;
+    border-right:grey;   ;
     width: 150px;
     height: 150px;
     align-items: center;
     flex-wrap: wrap;
+    border-style: groove;
+    border-right: #474747;
+}
+p{
+    height: 150px;
+    width:600px;
+    font-family: sans-serif;
 }
 .aboutme{
     display: flex;
@@ -82,60 +91,67 @@ aside {
     height: 150px;
     margin-right: 15px;
 }
-.splash {
+
+.work {
     display: flex;
+    justify-content: left;
+
+}
+.splash>main {
+    padding-top: 40px;   
+    display: flex;
+    flex-wrap: wrap;
 }
 a>img {
     display: flex;
+    flex-wrap: wrap;
     width: 1200px;
-    object-fit: cover;
+    height: 857px;
     border-radius: 19px;
-    padding-left: 100px;
+    padding-left: 111px;
     padding-right: 80px;
 }
-.littleimages {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 250px;
-}
-
-
-item>img {
-    display: flex;
-    height: 500px;
-    padding: 75px;
-    border-radius: 19%;
-}
-.littleimages>section {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 250px;
-}
-
-.splash>main {
- padding-top: 40px;   
- display: flex;
- flex-wrap: wrap;
-}
-
-p{
-    height: 150px;
-    width:600px;
-    font-family: sans-serif;
-}
-
 .big-picture{
     display: flex;
-    flex:flex-wrap;
+    justify-content: center;
     background-color: whitesmoke;
-    padding-top: 20px;
-    padding-left: 100px;
-    padding-right: 60px;
-    padding-bottom: 50px;
-    align-content: center;
-    margin-left: 140px;
+    margin-left: 245px;
+    margin-right: 245px;
    font-size: 28px;
    font-family: sans-serif
-   
 }
+.littleimages{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-left: 350px;
+}
+item>img {
+    display: flex;
+    height: 400px;
+    width: auto;
+    padding-top: 60px;
+    padding-left: 120px;
+    padding-right:70px
     
+}
+item>strong {
+    display: flex;
+    margin-left: 225px;
+    margin-right: 225px;
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: whitesmoke
+}
+img {
+    display: flex;
+    border-radius: 10px;  
+}
+.contact>section {
+    display:flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    font-family: sans-serif;
+    font-size: 30px;
+
+}
